@@ -1,0 +1,24 @@
+{
+    "cloudDatabaseURL":"mongodb+srv://admin:admin@autochatapp-xhux5.mongodb.net/test?retryWrites=true&w=majority",
+    "localDatabaseURL": "mongodb://localhost:27017/AutoChatApp",
+    "jwtSecretKey": "MaNASPArTHJaYDEePtEam",
+    "configDialogflow":{
+        "projectID": "pizzaordering-jfvpvg",
+        "credentials": {
+            "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQClWpRUFiflEMzK\n3BelvrbwPY9i5qSG7KeMPsbzw24M3SWP612oCcJuu6paJl8bbMu1srBE+pRN4+Yg\nDhWh+1B8AN8BlJIa3eHSSa1tIfjwRTKosX1re/Yz6hg9q3BJRAcreauL4rA4OGaI\nkhMh466Lnia4pVJRXH7IVvpsfcQfuFFDS8csa41xWKM8dQ6e7MQr7CQt4YqrXwin\nx36wh25ZCU3eo1TOfMlXV4lHpcx8O6LqbiqNMao9zLNVKXms0sv6hhx1o7y/09rS\nc5XGWCwJh72DUh98QQO2mMSD/mZZ3iyylSKvN1VrmW1KF3XZTfzba2BkXqEYPqZf\neJA56RzNAgMBAAECggEAGwV3HVmkidqpuNHoPGHy58YLl0QtKU5ln/XHUeEDLC98\neq0iGDqGD030K/i+zI7GKGprw032q9bdDap3jwmwcJ880jeK+8B8LX70TBQD6BHK\n0kX1ArpWdMvhy7wnJJXtHQXsSncQSJOw78r9POnF5ZOB7OU5U0nr/wW1tUKFKRCU\n013a6dBhC04imOyHxWwywRfMZguelrhO/lEiceBBsOp6CbPRAjzhKUfIy11i4Efs\n0kQKiaOqLphVFcEeBPsJBjVgjsptpul47tWw1hFmN9hDS3R9F2aRpezIzpjrRxxO\n+fmZQwa/yivni8N3T1dg9fDixhZU4UgQmAhye0lMOQKBgQDTvQl3zTVmcgA2Dgp9\n32WSjBAaP/nKoOg2qdO5NCyRiuQV+YRYE71dnfTc1WPbN4ej7+yxwgkln4/WuIRR\nVKDmBVXj3YZ882qZabLO0HXgJoYQXQmR0s/u8+yMj0Lk2PqkaD/Qbqibgx1jFjdJ\nExl/Y+d6pBn2GjUIVal95lbUyQKBgQDH61GJLCKDWBIcX9DQUg0Pl0bktZsyNq0Q\nZqJkT98sKRyn8bKfMah7W/K52kNe84svNIXQpXtJu1Jpkw+d9Yg4MRe/4LQRxS1p\nM3syNYb6eMMbEgGqpDiQ8etlVWL5+F4+oY4gz5VkyKudTnM3GWJxeLzrhLXT4ekW\ndKHmUhId5QKBgQC4gKnGZd9ZVI9Qiu2jf02P5FKHvSWZ5ppSP6vJX2hSrndPmqwy\n34iMEf7zi1JHDF06ge97ebvkt+Rr0z8ha6AEr7OHKlpteOJzqgHwav+8AXWivp9/\nHPapno2Kca91oIjPSDQLGNH9KMQruokUOPtn4RMs79/bbjy19YcKuPMC2QKBgQCd\nMbfD3xMoKXjcHK7pDos8hht1PCLSwdEkwz7PF0qIw67HkzF7ISW0EaFyZ19v6pm3\nPVo2q9ecKxFq9/pgnq5EWL2u3vVXv62sOZGV8ia3DXuD7o2m6kecGMyZuiEAIj2g\ni5Fg1ThHrc3a+9N2MJyKUoBhw9Dg0JJhWMXwfvnFzQKBgEpCzlLg6e29c6pI5gOG\n61KUC4ev/TFN+yL23uHZYChXsrADFWwXzScT4G7i5PMR+OZ1agLpbqM6QbnKMA68\nFsyrGT+jq4KabcJMolJtQvOFPKwZSlzPtYNOWA3XjnqdcKQgE4HaaOGItbNVzT5o\nINbd9xWW3w4jJsvF0w8BFHQj\n-----END PRIVATE KEY-----\n",
+            "client_email": "dialogflow-vsdioy@pizzaordering-jfvpvg.iam.gserviceaccount.com"
+        }
+    },
+    "nluPyshellConfig": {
+        "script": "./rasa_nlu/rasa_model.py",
+        "options": {
+            "pythonPath": "python3"
+        }
+    },
+    "nlgPyshellConfig": {
+        "script": "nlg.py",
+        "options": {
+            "pythonPath": "python3"
+        }
+    }
+}

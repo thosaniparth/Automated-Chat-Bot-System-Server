@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Hp\\Desktop\\rasa_nlu\\models\\current\\nlu\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Hp\\Desktop\\rasa_nlu\\models\\current\\nlu\\component_5_EmbeddingIntentClassifier.ckpt"

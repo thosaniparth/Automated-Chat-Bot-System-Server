@@ -1,0 +1,2092 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "itoppings+ibase",
+        "entities": [
+          {
+            "start": 30,
+            "end": 42,
+            "value": "Cheese Burst",
+            "entity": "Base"
+          },
+          {
+            "start": 54,
+            "end": 59,
+            "value": "onion",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i am looking for a pizza with Cheese Burst crust with onion as toppings"
+      },
+      {
+        "intent": "itoppings+ibase",
+        "entities": [
+          {
+            "start": 30,
+            "end": 45,
+            "value": "New Hand Tossed",
+            "entity": "Base"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "capsicum",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i am looking for a pizza with New Hand Tossed crust with capsicum as toppings"
+      },
+      {
+        "intent": "itoppings+ibase",
+        "entities": [
+          {
+            "start": 30,
+            "end": 45,
+            "value": "Fresh Pan Pizza",
+            "entity": "Base"
+          },
+          {
+            "start": 57,
+            "end": 64,
+            "value": "chicken",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i am looking for a pizza with Fresh Pan Pizza crust with chicken as toppings"
+      },
+      {
+        "intent": "itoppings+ibase",
+        "entities": [
+          {
+            "start": 30,
+            "end": 46,
+            "value": "Wheat Thin Crust",
+            "entity": "Base"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "corn",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i am looking for a pizza with Wheat Thin Crust crust with corn as toppings"
+      },
+      {
+        "intent": "ipizzas+ibase",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "Cheese Burst",
+            "entity": "Base"
+          },
+          {
+            "start": 21,
+            "end": 33,
+            "value": "peppy paneer",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Cheese Burstpeppy paneer pizza"
+      },
+      {
+        "intent": "ipizzas+ibase",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "New Hand Tossed",
+            "entity": "Base"
+          },
+          {
+            "start": 24,
+            "end": 42,
+            "value": "mexican green wave",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a New Hand Tossedmexican green wave pizza"
+      },
+      {
+        "intent": "ipizzas+ibase",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "Fresh Pan Pizza",
+            "entity": "Base"
+          },
+          {
+            "start": 24,
+            "end": 40,
+            "value": "Tandoori Chicken",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Fresh Pan PizzaTandoori Chicken pizza"
+      },
+      {
+        "intent": "ipizzas+ibase",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Wheat Thin Crust",
+            "entity": "Base"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Jalapeno",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Wheat Thin CrustJalapeno pizza"
+      },
+      {
+        "intent": "itoppings+idietpref",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "jain",
+            "entity": "DietPrefrence"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "jalapenos",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want a jain pizza with jalapenos as toppings"
+      },
+      {
+        "intent": "itoppings+idietpref",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "veg",
+            "entity": "DietPrefrence"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "onion",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want a veg pizza with onion as toppings"
+      },
+      {
+        "intent": "itoppings+idietpref",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          },
+          {
+            "start": 28,
+            "end": 42,
+            "value": "Chicken Salami",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want a non veg pizza with Chicken Salami as toppings"
+      },
+      {
+        "intent": "isize+idietpref",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "large",
+            "entity": "Size"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want a large veg pizza"
+      },
+      {
+        "intent": "isize+idietpref",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "small",
+            "entity": "Size"
+          },
+          {
+            "start": 15,
+            "end": 19,
+            "value": "jain",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want a small jain pizza"
+      },
+      {
+        "intent": "isize+idietpref",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "medium",
+            "entity": "Size"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want a medium non veg pizza"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "close",
+        "text": "goodbye"
+      },
+      {
+        "intent": "close",
+        "text": "bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "jain",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order jain pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "jain",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want Jain pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "jain",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want No onion pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 7,
+            "end": 30,
+            "value": "jain",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want No Garlic and No potato pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want veg pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want Veg pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want Vegetarian pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order V pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order non veg pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order Non-Veg pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 30,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order Non-Vegetarian pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order NV pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 30,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order non-vegetarian pizzas"
+      },
+      {
+        "intent": "idietpref",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "non veg",
+            "entity": "DietPrefrence"
+          }
+        ],
+        "text": "i want to order nv pizzas"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "Paneer",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Cottage Cheese pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Chicken",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Chicken pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "Chicken",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Tandoori Chicken pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "Chicken",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Barbeque Chicken pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 28,
+            "value": "Chicken",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Hot 'n' Spicy Chicken pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "Chicken",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Chunky Chicken pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "Chicken",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Chicken Salami pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "Mushroom",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Mushroom pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Mushroom",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Shrooms pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "Jalapeno",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Jalapeno pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Olives",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Olives pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Onion",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Onion pizzaz"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Tomato",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Tomato pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Tomato",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Fresh Tomato pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Cheese",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Cheese pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "Cheese",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Mozarella Cheese pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "Cheese",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Drippinng Cheese pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Cheese",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Cheese Burst pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Pepperoni",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Pepperoni pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Pineapple",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Pineapple pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "Capsicum",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Capsicum pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Capsicum",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Bell Pepper pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "Capsicum",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Red Bell Pepper pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 25,
+            "value": "Capsicum",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Yellow Bell Pepper pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "Capsicum",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Crisp Capsicum pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Corn",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Corn pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Corn",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Golden Corn pizza"
+      },
+      {
+        "intent": "itoppings",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "Corn",
+            "entity": "Toppings"
+          }
+        ],
+        "text": "i want Sweet Corn pizza"
+      },
+      {
+        "intent": "ibase",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "Cheese Burst",
+            "entity": "Base"
+          }
+        ],
+        "text": "i want pizza with Cheese Burst base"
+      },
+      {
+        "intent": "ibase",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Cheese Burst",
+            "entity": "Base"
+          }
+        ],
+        "text": "i want pizza with Cheesy base"
+      },
+      {
+        "intent": "ibase",
+        "entities": [
+          {
+            "start": 18,
+            "end": 37,
+            "value": "Classic Hand Tossed",
+            "entity": "Base"
+          }
+        ],
+        "text": "i want pizza with Classic Hand Tossed base"
+      },
+      {
+        "intent": "ibase",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "New Hand Tossed",
+            "entity": "Base"
+          }
+        ],
+        "text": "i want pizza with New Hand Tossed base"
+      },
+      {
+        "intent": "ibase",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "Fresh Pan Pizza",
+            "entity": "Base"
+          }
+        ],
+        "text": "i want pizza with Fresh Pan Pizza base"
+      },
+      {
+        "intent": "ibase",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Normal",
+            "entity": "Base"
+          }
+        ],
+        "text": "i want pizza with Normalbase"
+      },
+      {
+        "intent": "ibase",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Wheat Thin Crust",
+            "entity": "Base"
+          }
+        ],
+        "text": "i want pizza with Wheat Thin Crustbase"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Small",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a Small pizza"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Small",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a 7 inch pizza"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "Small",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a S pizza"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Large",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a Large pizza"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Large",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a 12 inch pizza"
+      },
+      {
+        "intent": "isize",
+        "text": "i want a [L])(Size:Large) pizza"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Medium",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a Medium pizza"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "Medium",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a M pizza"
+      },
+      {
+        "intent": "isize",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Medium",
+            "entity": "Size"
+          }
+        ],
+        "text": "i want a 9 inch pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Margharita",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Margharita pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 33,
+            "value": "Double Cheese Margharita",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Double Cheese Margharita pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Farm House",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Farm House pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "Peppy Paneer",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Peppy Paneer pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Mexican Green Wave",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Mexican Green Wave pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 22,
+            "value": "Deluxe Veggie",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Deluxe Veggie pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Veg Extravaganza",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Veg Extravaganza pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 22,
+            "value": "CHEESE N CORN",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a CHEESE N CORN pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 23,
+            "value": "PANEER MAKHANI",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a PANEER MAKHANI pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "VEGGIE PARADISE",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a VEGGIE PARADISE pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "FRESH VEGGIE",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a FRESH VEGGIE pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 26,
+            "value": "Cheese Margharita",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Cheese Margharita pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 29,
+            "value": "Indi Tandoori Paneer",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Indi Tandoori Paneer pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 26,
+            "value": "Onion - Pan pizza",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Onion - Pan pizza pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Tomato - Pan pizza",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Tomato - Pan pizza pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 29,
+            "value": "Capsicum - Pan pizza",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Capsicum - Pan pizza pizza"
+      },
+      {
+        "intent": "ipizzas",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Corn - Pan Pizza",
+            "entity": "Pizzas"
+          }
+        ],
+        "text": "i want a Corn - Pan Pizza pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "Coke",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Coke with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Coke",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Pepsi with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Coke",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Thumbs Up with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Coke",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Sprite with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Coke",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Big Cola with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "Garlic-Bread",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Garlic-Bread with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 28,
+            "value": "Garlic-Bread",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Cheese Garlic Bread with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 29,
+            "value": "Garlic-Bread",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Stuffed Garlic Bread with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Garlic-Bread",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Garlic Breadsticks with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "Burger Pizza",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Burger Pizza with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "Dips",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Dips with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 28,
+            "value": "Dips",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Cheese Jalapeno Dip with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Dips",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Cheese Dip with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Dessert",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Dessert with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Dessert",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Lava Cake with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "Dessert",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Choco Lava Cake with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 33,
+            "value": "Dessert",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a Butterscotch Mousse Cake with my pizza"
+      },
+      {
+        "intent": "iaddons",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "Dessert",
+            "entity": "AddOns"
+          }
+        ],
+        "text": "i want a BROWNIE FANTASY with my pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Extras with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 26,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Potato Cheese Shots with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Crunchy Strips with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 32,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Taco Mexicana-Veg(Single) with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want CRINKLE FRIES with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Taco Mexicana Veg with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 28,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Taco Mexicana Non Veg with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Veg Parcel with my Pizza"
+      },
+      {
+        "intent": "iextras",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "Extras",
+            "entity": "Extras"
+          }
+        ],
+        "text": "i want Chicken Parcel with my Pizza"
+      },
+      {
+        "intent": "QDietpreference",
+        "entities": [
+          {
+            "start": 51,
+            "end": 61,
+            "value": "preference",
+            "entity": "DPref"
+          }
+        ],
+        "text": "Let's begin building your pizza. What is your diet preference, Vegetarian, Non- Vegetarian or Jain?"
+      },
+      {
+        "intent": "QDietpreference",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "preference",
+            "entity": "DPref"
+          }
+        ],
+        "text": "Can you please provide your food preference, Veg, Non-Veg or Jain?"
+      },
+      {
+        "intent": "QDietpreference",
+        "entities": [
+          {
+            "start": 61,
+            "end": 71,
+            "value": "preference",
+            "entity": "DPref"
+          }
+        ],
+        "text": "Please help me selecting the pizzas by providing me the food preference? Veg, Non-Veg or Jain?"
+      },
+      {
+        "intent": "QDietpreference",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "preference",
+            "entity": "DPref"
+          }
+        ],
+        "text": "Help me knowing your food preference, Veg/Non-Veg/Jain?"
+      },
+      {
+        "intent": "QPizza",
+        "text": "Which pizza would you like ?"
+      },
+      {
+        "intent": "QPizza",
+        "text": "Which $DietPreference pizza would you like to order?"
+      },
+      {
+        "intent": "QPizza",
+        "text": "Please enter the pizza you want to order?"
+      },
+      {
+        "intent": "QPizza",
+        "text": "Which pizza you want to order?"
+      },
+      {
+        "intent": "QToppings",
+        "text": "Extra Toppings you want?"
+      },
+      {
+        "intent": "QToppings",
+        "text": "would you like to add extra Toppings?"
+      },
+      {
+        "intent": "QToppings",
+        "text": "Do you want to add extra Toppings?"
+      },
+      {
+        "intent": "QBase",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Base",
+            "entity": "Base"
+          }
+        ],
+        "text": "Please Enter a Base Choice"
+      },
+      {
+        "intent": "QBase",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Base",
+            "entity": "Base"
+          }
+        ],
+        "text": "What Base would you like for your pizza?"
+      },
+      {
+        "intent": "QSize",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "size",
+            "entity": "Size"
+          }
+        ],
+        "text": "Enter the pizza size, Large/Medium/Small"
+      },
+      {
+        "intent": "QSize",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "size",
+            "entity": "Size"
+          }
+        ],
+        "text": "Enter the size of your Pizzas, Large, Meidum or Small ."
+      },
+      {
+        "intent": "QAddress",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "delivery",
+            "entity": "Address"
+          }
+        ],
+        "text": "Where do you want the delivery of the delicious pizza?"
+      },
+      {
+        "intent": "QAddress",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "drop",
+            "entity": "Address"
+          }
+        ],
+        "text": "Where should be drop by the lip smacking pizza?"
+      },
+      {
+        "intent": "QAddress",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "delivery",
+            "entity": "Address"
+          }
+        ],
+        "text": "Please enter the delivery location of the order?"
+      },
+      {
+        "intent": "QTime",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "time",
+            "entity": "Time"
+          }
+        ],
+        "text": "What time do you want the delivery?"
+      },
+      {
+        "intent": "QTime",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "When",
+            "entity": "Time"
+          }
+        ],
+        "text": "When should we deliver you the amazing pizza?"
+      },
+      {
+        "intent": "QTime",
+        "text": "Jain"
+      },
+      {
+        "intent": "QTime",
+        "text": "No onion"
+      },
+      {
+        "intent": "QTime",
+        "text": "No Garlic and No potato"
+      },
+      {
+        "intent": "QTime",
+        "text": "Veg"
+      },
+      {
+        "intent": "QTime",
+        "text": "Vegetarian"
+      },
+      {
+        "intent": "QTime",
+        "text": "V"
+      },
+      {
+        "intent": "QTime",
+        "text": "Non-Veg"
+      },
+      {
+        "intent": "QTime",
+        "text": "Non-Vegetarian"
+      },
+      {
+        "intent": "QTime",
+        "text": "NV"
+      },
+      {
+        "intent": "QTime",
+        "text": "non-vegetarian"
+      },
+      {
+        "intent": "QTime",
+        "text": "nv"
+      },
+      {
+        "intent": "QTime",
+        "text": "Cottage Cheese"
+      },
+      {
+        "intent": "QTime",
+        "text": "Tandoori Chicken"
+      },
+      {
+        "intent": "QTime",
+        "text": "Barbeque Chicken"
+      },
+      {
+        "intent": "QTime",
+        "text": "Hot 'n' Spicy Chicken"
+      },
+      {
+        "intent": "QTime",
+        "text": "Chunky Chicken"
+      },
+      {
+        "intent": "QTime",
+        "text": "Chicken Salami"
+      },
+      {
+        "intent": "QTime",
+        "text": "Shrooms"
+      },
+      {
+        "intent": "QTime",
+        "text": "Fresh Tomato"
+      },
+      {
+        "intent": "QTime",
+        "text": "Mozarella Cheese"
+      },
+      {
+        "intent": "QTime",
+        "text": "Drippinng Cheese"
+      },
+      {
+        "intent": "QTime",
+        "text": "Cheese Burst"
+      },
+      {
+        "intent": "QTime",
+        "text": "Bell Pepper"
+      },
+      {
+        "intent": "QTime",
+        "text": "Red Bell Pepper"
+      },
+      {
+        "intent": "QTime",
+        "text": "Yellow Bell Pepper"
+      },
+      {
+        "intent": "QTime",
+        "text": "Crisp Capsicum"
+      },
+      {
+        "intent": "QTime",
+        "text": "Golden Corn"
+      },
+      {
+        "intent": "QTime",
+        "text": "Sweet Corn"
+      },
+      {
+        "intent": "QTime",
+        "text": "Cheesy"
+      },
+      {
+        "intent": "QTime",
+        "text": "7 inch"
+      },
+      {
+        "intent": "QTime",
+        "text": "small"
+      },
+      {
+        "intent": "QTime",
+        "text": "S"
+      },
+      {
+        "intent": "QTime",
+        "text": "M"
+      },
+      {
+        "intent": "QTime",
+        "text": "9 inch"
+      },
+      {
+        "intent": "QTime",
+        "text": "12 inch"
+      },
+      {
+        "intent": "QTime",
+        "text": "Large"
+      },
+      {
+        "intent": "QTime",
+        "text": "L"
+      },
+      {
+        "intent": "QTime",
+        "text": "Pepsi"
+      },
+      {
+        "intent": "QTime",
+        "text": "Thumbs Up"
+      },
+      {
+        "intent": "QTime",
+        "text": "Sprite"
+      },
+      {
+        "intent": "QTime",
+        "text": "Big Cola"
+      },
+      {
+        "intent": "QTime",
+        "text": "Cheese Garlic Bread"
+      },
+      {
+        "intent": "QTime",
+        "text": "Stuffed Garlic Bread"
+      },
+      {
+        "intent": "QTime",
+        "text": "Garlic Breadsticks"
+      },
+      {
+        "intent": "QTime",
+        "text": "Cheese Jalapeno Dip"
+      },
+      {
+        "intent": "QTime",
+        "text": "Cheese Dip"
+      },
+      {
+        "intent": "QTime",
+        "text": "Lava Cake"
+      },
+      {
+        "intent": "QTime",
+        "text": "Choco Lava Cake"
+      },
+      {
+        "intent": "QTime",
+        "text": "Butterscotch Mousse Cake"
+      },
+      {
+        "intent": "QTime",
+        "text": "BROWNIE FANTASY"
+      },
+      {
+        "intent": "QTime",
+        "text": "Potato Cheese Shots"
+      },
+      {
+        "intent": "QTime",
+        "text": "Crunchy Strips"
+      },
+      {
+        "intent": "QTime",
+        "text": "Taco Mexicana-Veg(Single)"
+      },
+      {
+        "intent": "QTime",
+        "text": "CRINKLE FRIES"
+      },
+      {
+        "intent": "QTime",
+        "text": "Taco Mexicana Veg"
+      },
+      {
+        "intent": "QTime",
+        "text": "Taco Mexicana Non Veg"
+      },
+      {
+        "intent": "QTime",
+        "text": "Veg Parcel"
+      },
+      {
+        "intent": "QTime",
+        "text": "Chicken Parcel"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "jain",
+        "synonyms": [
+          "Jain",
+          "No onion",
+          "No Garlic and No potato"
+        ]
+      },
+      {
+        "value": "veg",
+        "synonyms": [
+          "Veg",
+          "Vegetarian",
+          "V"
+        ]
+      },
+      {
+        "value": "non veg",
+        "synonyms": [
+          "Non-Veg",
+          "Non-Vegetarian",
+          "NV",
+          "non-vegetarian",
+          "nv"
+        ]
+      },
+      {
+        "value": "Paneer",
+        "synonyms": [
+          "Cottage Cheese"
+        ]
+      },
+      {
+        "value": "Chicken",
+        "synonyms": [
+          "Tandoori Chicken",
+          "Barbeque Chicken",
+          "Hot 'n' Spicy Chicken",
+          "Chunky Chicken",
+          "Chicken Salami"
+        ]
+      },
+      {
+        "value": "Mushroom",
+        "synonyms": [
+          "Shrooms"
+        ]
+      },
+      {
+        "value": "Tomato",
+        "synonyms": [
+          "Fresh Tomato"
+        ]
+      },
+      {
+        "value": "Cheese",
+        "synonyms": [
+          "Mozarella Cheese",
+          "Drippinng Cheese",
+          "Cheese Burst"
+        ]
+      },
+      {
+        "value": "Capsicum",
+        "synonyms": [
+          "Bell Pepper",
+          "Red Bell Pepper",
+          "Yellow Bell Pepper",
+          "Crisp Capsicum"
+        ]
+      },
+      {
+        "value": "Corn",
+        "synonyms": [
+          "Golden Corn",
+          "Sweet Corn"
+        ]
+      },
+      {
+        "value": "Cheese Burst",
+        "synonyms": [
+          "Cheesy"
+        ]
+      },
+      {
+        "value": "Small",
+        "synonyms": [
+          "7 inch",
+          "S"
+        ]
+      },
+      {
+        "value": "Large",
+        "synonyms": [
+          "12 inch"
+        ]
+      },
+      {
+        "value": "Medium",
+        "synonyms": [
+          "M",
+          "9 inch"
+        ]
+      },
+      {
+        "value": "Coke",
+        "synonyms": [
+          "Pepsi",
+          "Thumbs Up",
+          "Sprite",
+          "Big Cola"
+        ]
+      },
+      {
+        "value": "Garlic-Bread",
+        "synonyms": [
+          "Cheese Garlic Bread",
+          "Stuffed Garlic Bread",
+          "Garlic Breadsticks"
+        ]
+      },
+      {
+        "value": "Dips",
+        "synonyms": [
+          "Cheese Jalapeno Dip",
+          "Cheese Dip"
+        ]
+      },
+      {
+        "value": "Dessert",
+        "synonyms": [
+          "Lava Cake",
+          "Choco Lava Cake",
+          "Butterscotch Mousse Cake",
+          "BROWNIE FANTASY"
+        ]
+      },
+      {
+        "value": "Extras",
+        "synonyms": [
+          "Potato Cheese Shots",
+          "Crunchy Strips",
+          "Taco Mexicana-Veg(Single)",
+          "CRINKLE FRIES",
+          "Taco Mexicana Veg",
+          "Taco Mexicana Non Veg",
+          "Veg Parcel",
+          "Chicken Parcel"
+        ]
+      }
+    ]
+  }
+}
